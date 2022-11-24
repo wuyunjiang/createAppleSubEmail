@@ -1,0 +1,22 @@
+{
+  "name": "Getting Started Example",
+  "description": "Build an Extension!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "debugger", "scripting", "tabs"],
+  "icons": {
+    "16": "./icon/icon.png",
+    "32": "./icon/icon.png",
+    "48": "./icon/icon.png",
+    "128": "./icon/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://appleid.apple.com/account/manage/section/privacy"],
+      "js": ["./config.js", "./content/content.js"]
+    }
+  ]
+}
