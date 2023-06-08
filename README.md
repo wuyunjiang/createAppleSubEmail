@@ -20,7 +20,8 @@
 https://user-images.githubusercontent.com/16558218/203842919-05b68d42-821e-473c-b3fc-0fac1a8b5da6.mp4
 
 
-7、导出邮箱
+7、导出邮箱（获取所有已生成的子邮箱）
+访问接口：https://appleid.apple.com/account/manage/email/private
 ![b9ae0c7e9cf78692de8d927923cb9ad](https://user-images.githubusercontent.com/16558218/235149036-2bb29db8-e2de-45d3-be88-bdd792a1fd2a.png)
 
 
